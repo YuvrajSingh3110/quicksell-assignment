@@ -21,7 +21,7 @@ const DashView = () => {
     (state) => state.SelectDataReducer
   );
 
-  const [grouping, setGrouping] = useState("Priority");
+  const [grouping, setGrouping] = useState("Progress");
 
   const progress = [
     todo,
@@ -47,7 +47,7 @@ const DashView = () => {
     selectedData && (
       <div className="dashContainer" style={{ justifyContent: "space-evenly" }}>
         {selectedData.map((elem, index) => {
-          const icons = grouping === "Priority" ? priority : progress;
+          const icons = selectedData.length == 5 ? priority : progress;
 
           return (
             <>
@@ -71,7 +71,7 @@ const DashView = () => {
                               height: "100%",
                               borderRadius: "50%",
                             }}
-                              src="https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="UserImage"
                           />
                         </div>
