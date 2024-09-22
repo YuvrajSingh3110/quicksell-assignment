@@ -1,5 +1,3 @@
 ## Project View
 
-<kbd>![](https://res.cloudinary.com/anshumxn09/image/upload/v1692799526/test/quickSell2_pjyru9.png)</kbd>
-
-<kbd>![](https://res.cloudinary.com/anshumxn09/image/upload/v1692799514/test/quickSell_nycbcs.png)</kbd>
+[![Screenshot-2024-09-22-130833.png](https://i.postimg.cc/sxYH8PDn/Screenshot-2024-09-22-130833.png)](https://postimg.cc/BPvCPKFD)
